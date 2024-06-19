@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDE48F542C2390A80019BE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE48F532C2390A80019BE54 /* AppDelegate.swift */; };
+		BDE48F562C2390A80019BE54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE48F552C2390A80019BE54 /* SceneDelegate.swift */; };
+		BDE48F582C2390A80019BE54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE48F572C2390A80019BE54 /* ViewController.swift */; };
+		BDE48F5B2C2390A80019BE54 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDE48F5A2C2390A80019BE54 /* Base */; };
+		BDE48F5D2C2390AA0019BE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE48F5C2C2390AA0019BE54 /* Assets.xcassets */; };
+		BDE48F602C2390AA0019BE54 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDE48F5F2C2390AA0019BE54 /* Base */; };
+		BDE48F6B2C2390AA0019BE54 /* FBAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE48F6A2C2390AA0019BE54 /* FBAuthenticationTests.swift */; };
+		BDE48F752C2390AA0019BE54 /* FBAuthenticationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE48F742C2390AA0019BE54 /* FBAuthenticationUITests.swift */; };
+		BDE48F772C2390AA0019BE54 /* FBAuthenticationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE48F762C2390AA0019BE54 /* FBAuthenticationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDE48F672C2390AA0019BE54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE48F482C2390A80019BE54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE48F4F2C2390A80019BE54;
+			remoteInfo = FBAuthentication;
+		};
+		BDE48F712C2390AA0019BE54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE48F482C2390A80019BE54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE48F4F2C2390A80019BE54;
+			remoteInfo = FBAuthentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDE48F502C2390A80019BE54 /* FBAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE48F532C2390A80019BE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDE48F552C2390A80019BE54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDE48F572C2390A80019BE54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDE48F5A2C2390A80019BE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDE48F5C2C2390AA0019BE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDE48F5F2C2390AA0019BE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDE48F612C2390AA0019BE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE48F662C2390AA0019BE54 /* FBAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE48F6A2C2390AA0019BE54 /* FBAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBAuthenticationTests.swift; sourceTree = "<group>"; };
+		BDE48F702C2390AA0019BE54 /* FBAuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBAuthenticationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE48F742C2390AA0019BE54 /* FBAuthenticationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBAuthenticationUITests.swift; sourceTree = "<group>"; };
+		BDE48F762C2390AA0019BE54 /* FBAuthenticationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBAuthenticationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDE48F4D2C2390A80019BE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE48F632C2390AA0019BE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE48F6D2C2390AA0019BE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDE48F472C2390A80019BE54 = {
+			isa = PBXGroup;
+			children = (
+				BDE48F522C2390A80019BE54 /* FBAuthentication */,
+				BDE48F692C2390AA0019BE54 /* FBAuthenticationTests */,
+				BDE48F732C2390AA0019BE54 /* FBAuthenticationUITests */,
+				BDE48F512C2390A80019BE54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDE48F512C2390A80019BE54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDE48F502C2390A80019BE54 /* FBAuthentication.app */,
+				BDE48F662C2390AA0019BE54 /* FBAuthenticationTests.xctest */,
+				BDE48F702C2390AA0019BE54 /* FBAuthenticationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDE48F522C2390A80019BE54 /* FBAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				BDE48F532C2390A80019BE54 /* AppDelegate.swift */,
+				BDE48F552C2390A80019BE54 /* SceneDelegate.swift */,
+				BDE48F572C2390A80019BE54 /* ViewController.swift */,
+				BDE48F592C2390A80019BE54 /* Main.storyboard */,
+				BDE48F5C2C2390AA0019BE54 /* Assets.xcassets */,
+				BDE48F5E2C2390AA0019BE54 /* LaunchScreen.storyboard */,
+				BDE48F612C2390AA0019BE54 /* Info.plist */,
+			);
+			path = FBAuthentication;
+			sourceTree = "<group>";
+		};
+		BDE48F692C2390AA0019BE54 /* FBAuthenticationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDE48F6A2C2390AA0019BE54 /* FBAuthenticationTests.swift */,
+			);
+			path = FBAuthenticationTests;
+			sourceTree = "<group>";
+		};
+		BDE48F732C2390AA0019BE54 /* FBAuthenticationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDE48F742C2390AA0019BE54 /* FBAuthenticationUITests.swift */,
+				BDE48F762C2390AA0019BE54 /* FBAuthenticationUITestsLaunchTests.swift */,
+			);
+			path = FBAuthenticationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDE48F4F2C2390A80019BE54 /* FBAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE48F7A2C2390AA0019BE54 /* Build configuration list for PBXNativeTarget "FBAuthentication" */;
+			buildPhases = (
+				BDE48F4C2C2390A80019BE54 /* Sources */,
+				BDE48F4D2C2390A80019BE54 /* Frameworks */,
+				BDE48F4E2C2390A80019BE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBAuthentication;
+			productName = FBAuthentication;
+			productReference = BDE48F502C2390A80019BE54 /* FBAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDE48F652C2390AA0019BE54 /* FBAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE48F7D2C2390AA0019BE54 /* Build configuration list for PBXNativeTarget "FBAuthenticationTests" */;
+			buildPhases = (
+				BDE48F622C2390AA0019BE54 /* Sources */,
+				BDE48F632C2390AA0019BE54 /* Frameworks */,
+				BDE48F642C2390AA0019BE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE48F682C2390AA0019BE54 /* PBXTargetDependency */,
+			);
+			name = FBAuthenticationTests;
+			productName = FBAuthenticationTests;
+			productReference = BDE48F662C2390AA0019BE54 /* FBAuthenticationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDE48F6F2C2390AA0019BE54 /* FBAuthenticationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE48F802C2390AA0019BE54 /* Build configuration list for PBXNativeTarget "FBAuthenticationUITests" */;
+			buildPhases = (
+				BDE48F6C2C2390AA0019BE54 /* Sources */,
+				BDE48F6D2C2390AA0019BE54 /* Frameworks */,
+				BDE48F6E2C2390AA0019BE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE48F722C2390AA0019BE54 /* PBXTargetDependency */,
+			);
+			name = FBAuthenticationUITests;
+			productName = FBAuthenticationUITests;
+			productReference = BDE48F702C2390AA0019BE54 /* FBAuthenticationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE48F482C2390A80019BE54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BDE48F4F2C2390A80019BE54 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BDE48F652C2390AA0019BE54 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BDE48F4F2C2390A80019BE54;
+					};
+					BDE48F6F2C2390AA0019BE54 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BDE48F4F2C2390A80019BE54;
+					};
+				};
+			};
+			buildConfigurationList = BDE48F4B2C2390A80019BE54 /* Build configuration list for PBXProject "FBAuthentication" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDE48F472C2390A80019BE54;
+			productRefGroup = BDE48F512C2390A80019BE54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE48F4F2C2390A80019BE54 /* FBAuthentication */,
+				BDE48F652C2390AA0019BE54 /* FBAuthenticationTests */,
+				BDE48F6F2C2390AA0019BE54 /* FBAuthenticationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDE48F4E2C2390A80019BE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE48F5D2C2390AA0019BE54 /* Assets.xcassets in Resources */,
+				BDE48F602C2390AA0019BE54 /* Base in Resources */,
+				BDE48F5B2C2390A80019BE54 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE48F642C2390AA0019BE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE48F6E2C2390AA0019BE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDE48F4C2C2390A80019BE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE48F582C2390A80019BE54 /* ViewController.swift in Sources */,
+				BDE48F542C2390A80019BE54 /* AppDelegate.swift in Sources */,
+				BDE48F562C2390A80019BE54 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE48F622C2390AA0019BE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE48F6B2C2390AA0019BE54 /* FBAuthenticationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE48F6C2C2390AA0019BE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE48F772C2390AA0019BE54 /* FBAuthenticationUITestsLaunchTests.swift in Sources */,
+				BDE48F752C2390AA0019BE54 /* FBAuthenticationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDE48F682C2390AA0019BE54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDE48F4F2C2390A80019BE54 /* FBAuthentication */;
+			targetProxy = BDE48F672C2390AA0019BE54 /* PBXContainerItemProxy */;
+		};
+		BDE48F722C2390AA0019BE54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDE48F4F2C2390A80019BE54 /* FBAuthentication */;
+			targetProxy = BDE48F712C2390AA0019BE54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDE48F592C2390A80019BE54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE48F5A2C2390A80019BE54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE48F5E2C2390AA0019BE54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE48F5F2C2390AA0019BE54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDE48F782C2390AA0019BE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDE48F792C2390AA0019BE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDE48F7B2C2390AA0019BE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FBAuthentication/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.FBAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDE48F7C2C2390AA0019BE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FBAuthentication/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.FBAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDE48F7E2C2390AA0019BE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.FBAuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBAuthentication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FBAuthentication";
+			};
+			name = Debug;
+		};
+		BDE48F7F2C2390AA0019BE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.FBAuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBAuthentication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FBAuthentication";
+			};
+			name = Release;
+		};
+		BDE48F812C2390AA0019BE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.FBAuthenticationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBAuthentication;
+			};
+			name = Debug;
+		};
+		BDE48F822C2390AA0019BE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.FBAuthenticationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBAuthentication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDE48F4B2C2390A80019BE54 /* Build configuration list for PBXProject "FBAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE48F782C2390AA0019BE54 /* Debug */,
+				BDE48F792C2390AA0019BE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE48F7A2C2390AA0019BE54 /* Build configuration list for PBXNativeTarget "FBAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE48F7B2C2390AA0019BE54 /* Debug */,
+				BDE48F7C2C2390AA0019BE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE48F7D2C2390AA0019BE54 /* Build configuration list for PBXNativeTarget "FBAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE48F7E2C2390AA0019BE54 /* Debug */,
+				BDE48F7F2C2390AA0019BE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE48F802C2390AA0019BE54 /* Build configuration list for PBXNativeTarget "FBAuthenticationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE48F812C2390AA0019BE54 /* Debug */,
+				BDE48F822C2390AA0019BE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE48F482C2390A80019BE54 /* Project object */;
+}
